@@ -66,29 +66,24 @@ bio-agent-1.0/
 │
 ├── query_extractor/
 │   ├── __init__.py
-│   ├── extractor.py
-│   └── README.md
+│   └── query_extractor.py
 │
 ├── retriever/
 │   ├── __init__.py
-│   ├── ncbi.py
-│   ├── pubmed.py
-│   └── README.md
+│   ├── ncbi_retriever.py
+│   └── pubmed_retriever.py
 │
 ├── validator/
 │   ├── __init__.py
-│   ├── pubmed_validator.py
-│   └── README.md
+│   └── pubmed_validator.py
 │
 ├── generator/
 │   ├── __init__.py
-│   ├── report_generator.py
-│   └── README.md
+│   └── report_generator.py
 │
 ├── safety_auditor/
 │   ├── __init__.py
-│   ├── auditor.py
-│   └── README.md
+│   └── safety_auditor.py
 │
 ├── save_file/
 │   ├── __init__.py
